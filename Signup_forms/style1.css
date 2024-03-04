@@ -1,0 +1,10 @@
+.loginform{
+    height: 600px;
+    width: 500px;
+    background-image: url("😵.jpg");
+    background-size: cover;
+}
+
+.container{
+    align-items: center;
+}

@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin:0;
+}
+#head{
+    height:130px;
+    transition-property: all;
+    
+}
+#topheading:hover{
+    background-color:darkgray;
+    transition-duration: 2s;
+}
+
+@keyframes coloranimation{
+    from{background-color: white;}
+    to{background-color: beige;}
+}
+
+.navebar{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#topheading{
+    height: 50px;
+    font-weight:bold;
+    color: black;
+    text-transform:capitalize;
+    text-align: center;
+}
+#content{
+    font-weight:lighter;
+    text-align: center;
+    background-color: white;
+    color:black;
+    text-transform:uppercase;
+    border:snow;
+    border-width: 50px;
+}
+
+body{
+    background-color: white;
+}
+.box{
+    background-color:white;
+    height: 1200px;
+    animation-name: coloranimation;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    
+}
+p{
+    text-align: center;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    text-transform: capitalize;
+}
+footer{
+    height: 150px;
+    background-color: black;
+    text-align: right;
+    color:white;
+    margin-top: 1000px;
+}
+
+
+.tshirts{
+    display: flex;
+    
+}
+.image2{
+    margin-left: 50px;
+}
+
+.image3{
+    margin-left: 50px;
+}
+.tshirts1{
+    display: flex;
+}
+.image4{
+    margin-top: 20px;
+    
+}
+
+.image5{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.image6{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.search{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 620px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+.searchinput{
+    width: 600px;
+    margin-left: 0px;
+}
+.account{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mycart{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    margin-left: 50px;
+}
+
+.searchicon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginicon{
+    font-size: 30px;
+    margin-right: 10px;
+    
+}
+
+.categories{
+    font-size: 30px;
+    display: flex;
+    color: black;
+}
+.carticon{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.accounticon{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.wishlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlisticon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.collections{
+    height: 900px;
+}
+
+.shop{
+    height: 800px;
+    background-image: url("(@jorvenbyrd) _ Instagram.jpg");
+    background-size: cover;
+    
+}
+.shopbutton{
+    margin-left: 650px;
+    margin-top: 400px;
+}
+
+.collectionimage{
+    display: flex;
+    
+}
+
+.image7{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+
+.image8{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.image9{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.image10{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.image11{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.collections{
+    background-image: url("head_image.jpg");
+    background-size: cover;
+}
+
+.image12{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
